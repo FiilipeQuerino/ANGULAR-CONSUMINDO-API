@@ -53,7 +53,7 @@ export class AppComponent {
      .subscribe(() => this.obterMusicasCadastradas());
   }
 
-  prrencherCampos(musica: Music) {
+  preencherCampos(musica: Music) {
     this.id = musica.id!.toString();
     this.musica = musica.text;   
     this.autor = musica.author
